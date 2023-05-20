@@ -1,0 +1,84 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@300&family=Playfair+Display:ital,wght@1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    position:sticky ;
+    top: 0;
+    height: 70px;
+    background-color: rgb(0, 0, 0);
+}
+nav a{
+    position: absolute;
+    top: 15px;
+    left: 50px;
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+}
+.topImg{
+    height: 580px;
+    background-image: url(img/minecraft.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.content{
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: 100vh;
+    background-color: white;
+    
+}
+body{
+    background-image: url(img/pattern_circles-1_0.5_1_0-0_0_1__ffffff_000000_696969.png)
+}
+.container{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.container h1{
+    padding: 35px 0;
+    font-size: 60px;
+
+}
+.letsplayers{
+   display: flex;
+   flex-direction: row;
+    gap: 30px;
+}
+
+.card{
+    margin-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 30px 40px;
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+}
+.card a{
+    font-size: 50px;
+    color: black;
+    text-decoration: none;
+}
+.LetsplayImg{
+    width: 300px;
+    height: 400px;
+}
+#iva{
+    background-image: url(img/иванч.png);
+    
+}
+#lol{
+    background-image: url(img/Лололошка.png);
+}
+#mis{
+    background-size: cover;
+    background-image: url(img/загружено.png);
+}
